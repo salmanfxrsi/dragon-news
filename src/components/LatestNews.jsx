@@ -10,20 +10,17 @@ const LatestNews = () => {
       {/* Latest News Section */}
       <Marquee pauseOnHover={true} className="flex gap-12">
         <Link to={"/news"} className="font-semibold text-lg text-[#403F3F]">
-          Match Highlights: Germany vs Spain — as it happened ! Match
-          Highlights: Germany vs Spain as...
+          Tucker Carlson Swears Vladimir Putin Is Winning The War In Ukraine
         </Link>
         <Link to={"/news"} className="font-semibold text-lg text-[#403F3F]">
-          Match Highlights: Germany vs Spain — as it happened ! Match
-          Highlights: Germany vs Spain as...
+          Halo, GTA Vice City Actor Directing Movie About Hunter Biden
         </Link>
         <Link to={"/news"} className="font-semibold text-lg text-[#403F3F]">
-          Match Highlights: Germany vs Spain — as it happened ! Match
-          Highlights: Germany vs Spain as...
+          US commander to train Ukraine military
         </Link>
         <Link to={"/news"} className="font-semibold text-lg text-[#403F3F]">
-          Match Highlights: Germany vs Spain — as it happened ! Match
-          Highlights: Germany vs Spain as...
+          Opinion: After a summer of surprising successes, President Biden is on
+          a roll
         </Link>
       </Marquee>
     </div>

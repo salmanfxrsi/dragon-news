@@ -4,10 +4,11 @@ import LatestNews from "../components/LatestNews";
 import LeftNav from "../components/LeftNav";
 import Navbar from "../components/Navbar";
 import RightNav from "../components/RightNav";
+import Footer from "../components/Footer";
 
 const HomeLayout = () => {
   return (
-    <div className="font-poppins mb-24">
+    <div className="font-poppins">
       <header className="container mx-auto mt-12">
         {/* Header */}
         <section className="w-11/12 mx-auto">
@@ -34,6 +35,10 @@ const HomeLayout = () => {
           <RightNav></RightNav>
         </aside>
       </main>
+      {/* Footer */}
+      <footer className="mt-10">
+        <Footer></Footer>
+      </footer>
     </div>
   );
 };
