@@ -18,6 +18,7 @@ const Categories = () => {
       <div className="flex flex-col gap-3 mt-5">
         {categories.map((category) => (
           <NavLink
+            to={`/category/${category.category_id}`}
             key={category.category_id}
             className={({ isActive }) =>
               `${
