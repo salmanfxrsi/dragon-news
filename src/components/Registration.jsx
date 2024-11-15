@@ -1,6 +1,6 @@
 const Registration = () => {
   return (
-    <div className="bg-white p-20 rounded-md mx-auto w-[700px]">
+    <div className="bg-white p-20 rounded-md mx-auto w-11/12 lg:w-[700px]">
       <h1 className="font-semibold text-4xl text-[#403F3F] text-center">
         Register your account
       </h1>
