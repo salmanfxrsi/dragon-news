@@ -15,6 +15,14 @@ const AuthProvider = ({ children }) => {
   const signInUser = (email,password) => {
     return signInWithEmailAndPassword(auth,email,password)
   };
+  
+  // const signInWithGoogle = (email,password) => {
+  //   return goog(auth,email,password)
+  // };
+  
+  // const signInWithGithub = (email,password) => {
+  //   return signInWithEmailAndPassword(auth,email,password)
+  // };
 
   const signOutUser = () => {
     signOut(auth)
