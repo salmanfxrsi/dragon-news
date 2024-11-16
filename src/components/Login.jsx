@@ -5,9 +5,9 @@ import { AuthContext } from "../provider/AuthProvider";
 const Login = () => {
   const { signInUser, setUser } = useContext(AuthContext);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
-    const form = new FormData();
+    const form = new FormData(e.target);
     const email = form.get("email");
     const password = form.get("password");
     signInUser(email, password)
